@@ -35,7 +35,7 @@ function preload(){
 
 function setup() {
   createCanvas(600, 200);
-  
+  trex.setCollider("circle",0,0,40);
   trex = createSprite(50,180,20,50);
   
   trex.addAnimation("running", trex_running);
